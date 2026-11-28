@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="preconnect" href="https://connect.facebook.net" crossorigin><link rel="dns-prefetch" href="https://t.me">
+<head>
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+<link rel="dns-prefetch" href="https://t.me">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>𝐑𝐎𝐂𝐊𝐘_𝐁𝐇𝐀𝐈_𝐕𝐈𝐏 — Learn To Read Charts Yourself</title>
@@ -9,10 +11,14 @@
 <meta property="og:description" content="Daily levels, live setups and risk-first education. Free forever.">
 <meta property="og:image" content="https://ajay.learnfordge.shop/logo.jpg?v=1795777595">
 <meta name="theme-color" content="#0a0612">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap"></noscript>
-<style>*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap"></noscript>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 :root{
 --bg:#0a0612;
 --ink:#ffffff;
@@ -68,10 +74,7 @@ var(--bg);
 }
 @keyframes shine{0%{left:-70%}55%,100%{left:140%}}
 @keyframes arwNudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
-@keyframes countPulse{
-0%,100%{transform:scale(1)}
-50%{transform:scale(1.06)}
-}
+@keyframes countPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 .wrap{
 width:100%;max-width:400px;
 display:flex;flex-direction:column;
@@ -125,9 +128,7 @@ background:#1a1322 center/cover no-repeat;
 border:3px solid var(--bg);
 display:block;
 z-index:2;
-box-shadow:
-0 0 0 1px rgba(225,29,72,.15),
-0 12px 32px -8px rgba(0,0,0,.7);
+box-shadow:0 0 0 1px rgba(225,29,72,.15),0 12px 32px -8px rgba(0,0,0,.7);
 }
 .verify{
 position:absolute;
@@ -243,16 +244,10 @@ pointer-events:none;
 }
 .cta::after{
 content:'';position:absolute;inset:0;border-radius:inherit;
-background:linear-gradient(180deg,
-rgba(255,255,255,.2) 0%,
-rgba(255,255,255,.04) 45%,
-transparent 55%);
+background:linear-gradient(180deg,rgba(255,255,255,.2) 0%,rgba(255,255,255,.04) 45%,transparent 55%);
 pointer-events:none;
 }
-.cta:hover{
-transform:translateY(-2px);
-filter:brightness(1.06);
-}
+.cta:hover{transform:translateY(-2px);filter:brightness(1.06)}
 .cta:active{transform:translateY(0) scale(.985)}
 .cta:focus-visible{outline:2px solid var(--crimson-lt);outline-offset:3px}
 .cta.busy{opacity:.75;pointer-events:none;animation:none}
@@ -275,10 +270,7 @@ letter-spacing:.08em;
 color:var(--ink-3);
 animation:rise .6s var(--ease) .44s both;
 }
-.hint b{
-color:var(--crimson-lt);
-font-weight:700;
-}
+.hint b{color:var(--crimson-lt);font-weight:700}
 .badges{
 display:grid;
 grid-template-columns:repeat(3,1fr);
@@ -287,10 +279,8 @@ margin-top:22px;
 animation:rise .6s var(--ease) .5s both;
 }
 .badge-stat{
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
+display:flex;flex-direction:column;
+align-items:center;justify-content:center;
 gap:3px;
 padding:14px 8px 12px;
 background:rgba(255,255,255,.035);
@@ -350,10 +340,7 @@ font-weight:500;
 transition:color .2s ease;
 }
 .footer-links a:hover{color:var(--crimson-lt)}
-.fsep{
-width:3px;height:3px;border-radius:50%;
-background:var(--ink-4);opacity:.6;
-}
+.fsep{width:3px;height:3px;border-radius:50%;background:var(--ink-4);opacity:.6}
 .disc{
 font-size:10.5px;
 line-height:1.7;
@@ -381,9 +368,7 @@ pointer-events:none;
 .sticky-cta .inner{max-width:400px;margin:0 auto;position:relative}
 .sticky-cta .cta{height:58px;font-size:15px;animation:none}
 @media (min-width:641px){.sticky-cta{display:none}}
-@media (max-width:640px){
-body{padding-bottom:110px}
-}
+@media (max-width:640px){body{padding-bottom:110px}}
 @media (max-width:380px){
 body{padding:24px 16px 36px}
 .avatar-stage{width:120px;height:120px;margin-bottom:22px}
@@ -402,15 +387,29 @@ animation-duration:.01ms!important;
 animation-iteration-count:1!important;
 transition-duration:.01ms!important;
 }
-}</style>
-<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
-s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+}
+</style>
+
+<script>
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];
+t=b.createElement(e);t.async=!0;t.src=v;
+s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)
+}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
 fbq('init','1679887010537291');
-fbq('track','PageView',{},{eventID:'4e36518e51563c8d_1795853052_pv'});</script>
-<noscript><img height="1" width="1" style="display:none" alt=""
- src="https://www.facebook.com/tr?id=1679887010537291&ev=PageView&noscript=1"/></noscript>
+fbq('track','PageView',{},{eventID:'4e36518e51563c8d_1795853052_pv'});
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1679887010537291&ev=PageView&noscript=1"/>
+</noscript>
 </head>
+
 <body>
 <main class="wrap">
 <section class="channel">
@@ -419,17 +418,21 @@ fbq('track','PageView',{},{eventID:'4e36518e51563c8d_1795853052_pv'});</script>
 <span class="avatar" style="background-image:url('profile.jpeg')" role="img" aria-label="𝐑𝐎𝐂𝐊𝐘_𝐁𝐇𝐀𝐈_𝐕𝐈𝐏"></span>
 <span class="verify" aria-hidden="true">
 <svg viewBox="0 0 24 24" fill="none">
-<path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3.6"
-                stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </span>
 </div>
+
 <h1 class="name">𝐑𝐎𝐂𝐊𝐘_𝐁𝐇𝐀𝐈_𝐕𝐈𝐏</h1>
 <p class="tag"><i></i>Verified Channel</p>
-<p class="desc">      <strong>From confusion to clarity — in weeks, not years.</strong>
-      Daily levels, live setups, and the full reasoning behind every call. <em>No signals. No hype. Just skill.</em>
+
+<p class="desc">
+<strong>From confusion to clarity — in weeks, not years.</strong>
+Daily levels, live setups, and the full reasoning behind every call.
+<em>No signals. No hype. Just skill.</em>
 </p>
 </section>
+
 <div class="cta-wrap">
 <a class="cta" id="joinBtn" href="#" rel="noopener">
 <svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -440,20 +443,13 @@ fbq('track','PageView',{},{eventID:'4e36518e51563c8d_1795853052_pv'});</script>
 </a>
 <p class="hint">Status: <b id="statusText">Ready</b> · opens in Telegram</p>
 </div>
+
 <div class="badges" aria-label="Community stats">
-<div class="badge-stat">
-<b data-count="2400" data-suffix="+">0</b>
-<i>Members</i>
+<div class="badge-stat"><b data-count="2400" data-suffix="+">0</b><i>Members</i></div>
+<div class="badge-stat"><b data-count="35" data-suffix="+">0</b><i>Setups / wk</i></div>
+<div class="badge-stat"><b class="grad" data-count="4.9" data-dec="1">0</b><i>Rating</i></div>
 </div>
-<div class="badge-stat">
-<b data-count="35" data-suffix="+">0</b>
-<i>Setups / wk</i>
-</div>
-<div class="badge-stat">
-<b class="grad" data-count="4.9" data-dec="1">0</b>
-<i>Rating</i>
-</div>
-</div>
+
 <footer class="footer">
 <nav class="footer-links" aria-label="Footer">
 <a href="#" rel="nofollow">Terms</a>
@@ -462,12 +458,11 @@ fbq('track','PageView',{},{eventID:'4e36518e51563c8d_1795853052_pv'});</script>
 <span class="fsep" aria-hidden="true"></span>
 <a href="#" rel="nofollow">Contact</a>
 </nav>
-<p class="disc">
-      Educational content only. Not financial advice. Trading involves risk of loss.
-    </p>
+<p class="disc">Educational content only. Not financial advice. Trading involves risk of loss.</p>
 <p class="copy">© 2026 𝐑𝐎𝐂𝐊𝐘_𝐁𝐇𝐀𝐈_𝐕𝐈𝐏</p>
 </footer>
 </main>
+
 <div class="sticky-cta" id="stickyCta" aria-hidden="true">
 <div class="inner">
 <a class="cta" id="joinBtnSticky" href="#" rel="noopener" tabindex="-1">
@@ -478,117 +473,186 @@ fbq('track','PageView',{},{eventID:'4e36518e51563c8d_1795853052_pv'});</script>
 </a>
 </div>
 </div>
-<script>const VID      = "4e36518e51563c8d_1795853052";
-const FALLBACK = "https:\/\/t.me\/+G5ByBCR6E-MwMDY1";
-const params   = new URLSearchParams(location.search);
-const FBCLID   = params.get('fbclid') || '';
+
+<script>
+const VID = "4e36518e51563c8d_1795853052";
+const params = new URLSearchParams(location.search);
+const FBCLID = params.get('fbclid') || '';
 const CAMPAIGN = params.get('utm_campaign') || '';
-const AD       = params.get('utm_content') || '';
-function serverEvent(type, eid){
-const body = new URLSearchParams({
-type, vid: VID, eid, fbclid: FBCLID, campaign: CAMPAIGN, ad: AD
-});
-if(navigator.sendBeacon){ navigator.sendBeacon('event.php', body); }
-else { fetch('event.php', {method:'POST', body, keepalive:true}).catch(()=>{}); }
+const AD = params.get('utm_content') || '';
+
+function serverEvent(type, eid) {
+  const body = new URLSearchParams({
+    type, vid: VID, eid, fbclid: FBCLID,
+    campaign: CAMPAIGN, ad: AD
+  });
+
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon('event.php', body);
+  } else {
+    fetch('event.php', {
+      method: 'POST',
+      body,
+      keepalive: true
+    }).catch(() => {});
+  }
 }
+
 const vcEid = "4e36518e51563c8d_1795853052_vc";
-void 0;
 serverEvent('ViewContent', vcEid);
-let inviteLink = null;
+
 let navigating = false;
-const btn        = document.getElementById('joinBtn');
-const btnSticky  = document.getElementById('joinBtnSticky');
+
+const btn = document.getElementById('joinBtn');
+const btnSticky = document.getElementById('joinBtnSticky');
 const statusText = document.getElementById('statusText');
 const allButtons = [btn, btnSticky].filter(Boolean);
-async function getLink(){
-try{
-const r = await fetch('get-link.php?vid=' + encodeURIComponent(VID));
-const d = await r.json();
-if(d.link){
-inviteLink = d.link;
-allButtons.forEach(b => { b.href = d.link; });
+
+async function onJoinClick(e) {
+  e.preventDefault();
+
+  const el = e.currentTarget;
+  if (navigating || el.classList.contains('busy')) return;
+
+  navigating = true;
+  allButtons.forEach(b => b.classList.add('busy'));
+
+  if (statusText) statusText.textContent = 'Creating link…';
+
+  const eid = VID + '_click';
+  serverEvent('Click', eid);
+
+  try {
+    const response = await fetch('/api/create-invite', {
+      method: 'POST'
+    });
+
+    const data = await response.json();
+
+    if (!response.ok || !data.success || !data.invite_link) {
+      throw new Error('Invite link creation failed');
+    }
+
+    if (statusText) statusText.textContent = 'Opening Telegram…';
+    location.href = data.invite_link;
+
+  } catch (error) {
+    console.error('Invite error:', error);
+    navigating = false;
+    allButtons.forEach(b => b.classList.remove('busy'));
+    if (statusText) statusText.textContent = 'Failed — Tap to retry';
+  }
 }
-}catch(e){}
-if(!inviteLink){
-inviteLink = FALLBACK;
-allButtons.forEach(b => { b.href = FALLBACK; });
-}
-}
-getLink();
-function goToLink(){
-if(navigating) return;
-navigating = true;
-location.href = inviteLink || FALLBACK;
-}
-function onJoinClick(e){
-e.preventDefault();
-const el = e.currentTarget;
-if(el.classList.contains('busy')) return;
-el.classList.add('busy');
-allButtons.forEach(b => { if(b !== el) b.classList.add('busy'); });
-if(statusText) statusText.textContent = 'Opening…';
-const eid = VID + '_click';
-try{ void 0 }catch(err){}
-serverEvent('Click', eid);
-if(inviteLink){
-setTimeout(goToLink, 200);
-} else {
-getLink().then(() => setTimeout(goToLink, 200));
-}
-}
-allButtons.forEach(b => b.addEventListener('click', onJoinClick));
-(function(){
-const sticky = document.getElementById('stickyCta');
-if(!sticky || !('IntersectionObserver' in window) || !btn) return;
-const io = new IntersectionObserver(function(entries){
-const entry = entries[0];
-const show = !entry.isIntersecting && entry.boundingClientRect.top < 0;
-sticky.classList.toggle('show', show);
-sticky.setAttribute('aria-hidden', show ? 'false' : 'true');
-if(btnSticky) btnSticky.tabIndex = show ? 0 : -1;
-}, { threshold: 0 });
-io.observe(btn);
-})();
-(function(){
-const nodes = document.querySelectorAll('[data-count]');
-if(!nodes.length) return;
-const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-function render(el, value){
-const dec    = el.dataset.dec ? parseInt(el.dataset.dec, 10) : 0;
-const suffix = el.dataset.suffix || '';
-const out = dec
-? value.toFixed(dec)
-: Math.round(value).toLocaleString('en-US');
-el.textContent = out + suffix;
-}
-function animate(el){
-const target = parseFloat(el.dataset.count) || 0;
-if(reduce){ render(el, target); return; }
-const duration = 1500;
-const start = performance.now();
-function tick(now){
-const p = Math.min((now - start) / duration, 1);
-const eased = 1 - Math.pow(1 - p, 3);
-render(el, target * eased);
-if(p < 1) requestAnimationFrame(tick);
-else render(el, target);
-}
-requestAnimationFrame(tick);
-}
-if(!('IntersectionObserver' in window)){
-nodes.forEach(animate);
-return;
-}
-const io = new IntersectionObserver(function(entries){
-entries.forEach(function(entry){
-if(entry.isIntersecting){
-animate(entry.target);
-io.unobserve(entry.target);
-}
+
+allButtons.forEach(b => {
+  b.addEventListener('click', onJoinClick);
 });
-}, { threshold: 0.4 });
-nodes.forEach(el => io.observe(el));
-})();</script>
-<script>(function(){var st=document.getElementById('statusText'),st0=st?st.innerHTML:null;function reset(){try{navigating=false}catch(e){}document.querySelectorAll('a.busy,button.busy,.cta.busy').forEach(function(b){b.classList.remove('busy')});if(st&&st0!==null)st.innerHTML=st0;}document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('a,button'))setTimeout(reset,2500)},true);window.addEventListener('pageshow',function(e){if(e.persisted)reset()});document.addEventListener('visibilitychange',function(){if(!document.hidden)setTimeout(reset,400)});})();</script>
+
+(function(){
+  const sticky = document.getElementById('stickyCta');
+  if (!sticky || !('IntersectionObserver' in window) || !btn) return;
+
+  const io = new IntersectionObserver(function(entries){
+    const entry = entries[0];
+    const show = !entry.isIntersecting && entry.boundingClientRect.top < 0;
+
+    sticky.classList.toggle('show', show);
+    sticky.setAttribute('aria-hidden', show ? 'false' : 'true');
+
+    if (btnSticky) btnSticky.tabIndex = show ? 0 : -1;
+  }, { threshold: 0 });
+
+  io.observe(btn);
+})();
+
+(function(){
+  const nodes = document.querySelectorAll('[data-count]');
+  if (!nodes.length) return;
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function render(el, value){
+    const dec = el.dataset.dec ? parseInt(el.dataset.dec, 10) : 0;
+    const suffix = el.dataset.suffix || '';
+    const out = dec
+      ? value.toFixed(dec)
+      : Math.round(value).toLocaleString('en-US');
+
+    el.textContent = out + suffix;
+  }
+
+  function animate(el){
+    const target = parseFloat(el.dataset.count) || 0;
+
+    if (reduce) {
+      render(el, target);
+      return;
+    }
+
+    const duration = 1500;
+    const start = performance.now();
+
+    function tick(now){
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+
+      render(el, target * eased);
+
+      if (p < 1) requestAnimationFrame(tick);
+      else render(el, target);
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    nodes.forEach(animate);
+    return;
+  }
+
+  const io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        animate(entry.target);
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  nodes.forEach(el => io.observe(el));
+})();
+</script>
+
+<script>
+(function(){
+  var st = document.getElementById('statusText');
+  var st0 = st ? st.innerHTML : null;
+
+  function reset(){
+    try { navigating = false; } catch(e) {}
+
+    document.querySelectorAll('a.busy,button.busy,.cta.busy').forEach(function(b){
+      b.classList.remove('busy');
+    });
+
+    if (st && st0 !== null) st.innerHTML = st0;
+  }
+
+  document.addEventListener('click', function(e){
+    if (e.target.closest && e.target.closest('a,button')) {
+      setTimeout(reset, 2500);
+    }
+  }, true);
+
+  window.addEventListener('pageshow', function(e){
+    if (e.persisted) reset();
+  });
+
+  document.addEventListener('visibilitychange', function(){
+    if (!document.hidden) setTimeout(reset, 400);
+  });
+})();
+</script>
+
 </body>
 </html>
