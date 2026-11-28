@@ -104,7 +104,7 @@ export default async function handler(req, res) {
 
     return res.status(200).json({
       success: true,
-      visitor_id: visitorId,
+      visitor_id:
       invite_link: inviteLink
     });
 
